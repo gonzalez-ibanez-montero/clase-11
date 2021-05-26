@@ -10,7 +10,7 @@ Papa.parse("https://raw.githubusercontent.com/gonzalez-ibanez-montero/clase-11/m
         console.log(regiones);
         regiones.forEach(function (region, i) {
             document.getElementById("aca").innerHTML +=
-                '<div class="col-sm-6 col-md-4 col-lg-3"><div class="card h-100 shadow-sm"><img src="images/region-' +
+                '<div class="col-sm-6 col-md-4 col-lg-3"><div class="card h-100 shadow-sm"><img src="images1/region-' +
                 (i + 1) +
                 '.jpg" class="card-img-top"/><div class="card-body"><a href="#" data-bs-toggle="modal" data-bs-target="#unModal"><h3 class="card-title fs-6">' +
                 region +
