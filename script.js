@@ -1,4 +1,4 @@
-Papa.parse("https://github.com/gonzalez-ibanez-montero/clase-11/blob/main/territorios-electorales.csv", {
+Papa.parse("https://raw.githubusercontent.com/gonzalez-ibanez-montero/clase-11/main/territorios-electorales.csv", {
     download: true,
     header: true,
     dynamicTyping: true,
