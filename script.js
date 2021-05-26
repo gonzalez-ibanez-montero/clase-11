@@ -271,7 +271,7 @@ Papa.parse("https://raw.githubusercontent.com/gonzalez-ibanez-montero/clase-11/m
             });
             console.log(info);
             document.getElementById("nombreRegion").innerHTML = regiones[15];
-            document.getElementById("contenido").innerHTML = '<img src="images/region-16.jpg" class="w-100"/><table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
+            document.getElementById("contenido").innerHTML = '<img src="images2/region-16.jpg" class="w-100"/><table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
                     "<tr><td class='text-center'>" + elemento.distrito + "</td><td>" + elemento.comuna + "</td><td class='text-end'>" + elemento.electores.toLocaleString("es") + "</td></tr>";
