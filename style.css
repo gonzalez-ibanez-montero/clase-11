@@ -21,7 +21,8 @@ a {
 }
 
 #opciones{
-    top:20rem;
+z-index: 2;    
+top:20rem;
     right:1rem;
     position: absolute;
     padding:0.5rem 1rem;
