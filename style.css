@@ -23,10 +23,11 @@ a {
 #opciones{
 z-index: 2;    
 top:20rem;
+background: white;
     right:1rem;
     position: absolute;
     padding:0.5rem 1rem;
     border-radius: 5px 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
